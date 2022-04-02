@@ -1,0 +1,14 @@
+
+# E0: ERROR, 30: WARNING, 20: INFO, 10: DEBUG
+logLevel: 20
+
+chartMuseum:
+  url: "http://localhost:8080"
+
+  # If set, and chart with the exact same version is already present in museum,
+  # overwrite it with the new one.
+  overwriteExisting: true
+
+# List of charts to export
+charts:
+  - path: "/home/wastack/tmp/examples/charts/hello-world"
