@@ -6,7 +6,7 @@ from typing import Any, List, Optional
 
 import yaml
 
-from chartmuseum import sync_with_registry, ExportConfig, PackagedChart
+from chartsync.chartmuseum import ExportConfig, sync_with_registry, PackagedChart
 
 
 def sync_charts(charts: List[Any], museum_url: str, overwrite_existing: bool):

@@ -1,8 +1,7 @@
 import requests
 import logging
 
-from config import fetch_config
-from chart import sync_charts
+from chartsync import sync_charts, fetch_config
 
 
 def chartmuseum_url(config) -> str:
